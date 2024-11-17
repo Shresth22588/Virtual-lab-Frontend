@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Smart Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Smart Education - Login</h1>
+    </header>
+
+    <main>
+        <section id="login-section">
+            <h2>Login</h2>
+
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="" id="username" placeholder="Enter your username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+
+                <button type="submit" onclick="location.href='home.html'">Login</button>
+                <p style="color: red; display: none;">Please fill in all fields.</p>
+            </form>
+
+            <div id="signup-link">
+                <p>Don't have an account?</p>
+                <button type="submit" onclick="location.href='crt.html'">Create Your Account</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Smart Education. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

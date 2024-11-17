@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancing Portal - Smart Education</title>
+    <link rel="stylesheet" href="free.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Education Freelancing Portal</h1>
+        <nav>
+            <button id="home-btn">Home</button>
+            <button id="jobs-btn">Job Listings</button>
+            <button id="profile-btn">Profile</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to the Freelancing Portal</h2>
+            <p>Explore job opportunities, manage your profile, and apply for freelance projects.</p>
+        </section>
+
+        <section id="jobs">
+            <h2>Job Listings</h2>
+            <div id="job-list">
+            </div>
+        </section>
+
+        <section id="profile">
+            <h2>Your Profile</h2>
+            <form id="profile-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="4" required></textarea>
+
+                <button type="submit" onclick="location.href='update.html'">Update Profile</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Smart Education. All rights reserved.</p>
+    </footer>
+
+    <script src="free.js"></script>
+</body>
+</html>

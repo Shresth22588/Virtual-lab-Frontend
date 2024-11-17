@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Education Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="fade-in">Smart Education Platform</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="slide-in-left">Home</a></li>
+                    <li><a href="#virtual-lab" class="slide-in-left">Virtual Lab</a></li>
+                    <li><a href="#freelancing-portal" class="slide-in-left">Freelancing Portal</a></li>
+                    <li><a href="#contact" class="slide-in-left">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h2 class="zoom-in">Welcome to Smart Education</h2>
+            <p>Innovative education for the future. Access virtual labs, interactive learning modules, and explore freelancing opportunities.</p>
+        </div>
+    </section>
+    <section id="virtual-lab" class="animate-section">
+        <div class="container">
+            <h2>Virtual Lab</h2>
+            <p>Experience hands-on learning with our virtual labs. Interact with simulations and experiments.</p>
+            <button type="button" onclick="location.href='virtual.html'">Launch Virtual Lab</button>
+            <div id="lab-output"></div>
+        </div>
+    </section>
+    <section id="freelancing-portal" class="animate-section">
+        <div class="container">
+            <h2>Freelancing Portal</h2>
+            <p>Kickstart your freelancing career by working on projects. Connect with clients and build your portfolio.</p>
+            <button type="button" onclick="location.href='free.html'">Explore Freelancing Projects</button>
+            <div id="freelance-output"></div>
+        </div>
+    </section>
+    <section id="contact" class="animate-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your Name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Enter your Email I'd"><br>
+                <label for="tel">Phone no.</label><br>
+                <input type="tel" name="tel" id="tel" placeholder="Phone Number"><br>
+                <label for="message">Feedback:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit" onclick="location.href='thank.html'">Submit</button><br>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Smart Education Platform. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="home.css"></script>
+</body>
+</html>
